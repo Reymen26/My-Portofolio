@@ -1,10 +1,22 @@
 @media screen and (max-width: 1200px) {
     #profile {
         height: 80vh;
-        margin-bottom: 6rem;
     }
     .about-container {
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 1rem;
+        display: none;
+    }
+    .section__pic-container img {
+        width: 280px;
+        height: 260px;
     }
 }
 
@@ -26,22 +38,61 @@
     section {
         margin: 0 5%;
     }
-    .section__pic-container {
+    .section__pic-container-about {
         width: 275px;
         height: 275px;
         margin: 0 auto 1rem;
+        display: none;
     }
-    .section__pic-container img {
+    .section__pic-container-about img {
         width: 280px;
         height: 260px;
     }
     .title {
         font-size: 2rem;
     }
+    .section__text p {
+        text-align: start;
+    }
+    .section__text__p1 {
+        font-size: 1.2rem;
+    }
     .section__text__p2 {
         font-size: 1.4rem;
     }
-    .about-container {
-        margin-top: 0;
+    .section__title__profile {
+        font-size: 1.75rem;
+    }
+    .btn-container {
+        justify-content: center;
+    }
+    .socials-container {
+        justify-content: center;
+    }
+
+    #about {
+        height: 140vh;
+    }
+    
+    #contact {
+        height: 10vh;
+        margin-top: 31vh;
+        margin-bottom: 31vh;
+    }
+    
+    .about-container,
+    .contact-info-upper-container {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    } 
+
+    .contact-info-container {
+        margin: 0;
+    }
+
+    .contact-info-container p {
+        font-size: 1rem;
     }
 }
+
+    

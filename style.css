@@ -194,15 +194,36 @@ section {
 
 .section__text p {
     font-weight: 600;
+    text-align: justify;
+}
+
+.section__text h1 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: justify;
+    color: rgb(85, 85, 85);
+}
+
+.section__title__profile {
+    font-size: 2.5rem;
+    color: black;
+    text-align: start;
+    margin: 1rem 0;
+}
+
+.section__title__profile span{
+    font-weight: 380; 
+    color: black;
 }
 
 .section__text__p1 {
-    text-align: center;
+    text-align: start;
+    font-size: 1.2rem;
 }
 
 .section__text__p2 {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .title {
@@ -210,10 +231,10 @@ section {
     text-align: center;
 }
 
-#socials-container {
+.socials-container {
     display: flex;
-    justify-content: center;
-    margin-top: 1rem;
+    justify-content: start;
+    margin: 2rem 5.5rem;
     gap: 1rem;
 }
 
@@ -225,11 +246,18 @@ section {
 }
 
 /* BUTTONS */
-
 .btn-container {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.btn-project-container {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-top: 1.5rem;
 }
 
 .btn {
@@ -302,12 +330,6 @@ section {
     height: auto;
 }
 
-.section__pic-container {
-    display: flex;
-    justify-content: center;
-    flex: 1;
-}
-
 /* PROJECTS SECTION */
 
 #projects {
@@ -331,15 +353,19 @@ section {
 
 .card-projects-container img {
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 
 .card-article-container {
     padding: 16px;
 }
 
+.card-article-container p {
+    color: black;
+}
+
 .card-article-container h2 {
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 5px;
 }
 
@@ -356,8 +382,8 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
-    margin-top: 31vh;
+    height: 50vh;
+    margin-top: 3.6rem;
 }
 
 .contact-info-upper-container {
@@ -368,7 +394,8 @@ section {
     border-color: rgb(163, 163, 163);
     background: (250, 250, 250);
     margin: 2rem auto;
-    padding: o.5rem;
+    padding: 0.5rem;
+    gap: 2rem ;
 }
 
 .contact-info-container {
@@ -394,7 +421,7 @@ section {
 /* FOOTER SECTION */
 footer {
     height: 6vh;
-    margin-top: 7vh;
+    margin-top: 18vh;
 }
 
 .footer-container {
